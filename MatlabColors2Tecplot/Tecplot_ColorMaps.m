@@ -18,7 +18,8 @@ mapname(14) = {'summer'};
 mapname(15) = {'winter'};
 mapname(16) = {'parula'};
 
-destdir = '~/';
+% destdir = '~/'; % linux
+destdir = 'C:\Users\Manuel\Documents\GitHub\Tecplot\MatlabColors2Tecplot\';
 
 for i=1:16
     colormap(char(mapname(i)))
